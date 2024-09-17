@@ -1,0 +1,6 @@
+services:
+  app:
+    platform: linux/amd64
+    image: entity-embed
+    container_name: entity-embed
+    build: .
