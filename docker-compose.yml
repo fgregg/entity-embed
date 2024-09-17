@@ -4,3 +4,6 @@ services:
     image: entity-embed
     container_name: entity-embed
     build: .
+    ports:
+      - 8888:8888
+    command: jupyter notebook --allow-root --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password=''

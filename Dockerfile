@@ -14,3 +14,5 @@ COPY . /app
 RUN pip install -e .
 
 RUN pip install -r requirements-dev.txt
+RUN pip install -r requirements-examples.txt
+
